@@ -14,8 +14,14 @@ public class Main {
         System.out.println("Enger your last name: ");
         String lName = scanner.next();
         
+        System.out.println("What is your age?");
+        int age = scanner.nextInt();
+        
         // output first name and last name
         System.out.println("Hello, " + fName + " " + lName);
+        // output the user's age
+        System.out.println("You are " + age + " years old.");
+        
         
         scanner.close();
 
