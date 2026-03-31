@@ -18,6 +18,7 @@ public class Main {
         int age = scanner.nextInt();
         
         // output first name and last name
+        System.out.println("Welcome");
         System.out.println("Hello, " + fName + " " + lName);
         // output the user's age
         System.out.println("You are " + age + " years old.");
